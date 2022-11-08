@@ -3,15 +3,15 @@ const addMovie = () => {
     $("#title").val(),
     $("#releaseYear").val(),
     undefined,
-    $("#genre").val(),
     $("#nationality").val(),
+    $("#genre").val(),
     $("#director").val(),
+    $("#producer").val(),
     $("#writer").val(),
     $("#language").val(),
     $("#platform").val(),
     $("#isMCU").val(),
     $("#mainCharacterName").val(),
-    $("#producer").val(),
     $("#distributor").val(),
     $("#picture").val()
   );
