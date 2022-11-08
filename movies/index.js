@@ -45,12 +45,6 @@ const addMovie = () => {
               Platform: ${newMovie.platform}
             </li>
             <li class="list-group-item">
-              Language: ${newMovie.language}
-            </li>
-            <li class="list-group-item">
-              Is MCU?: ${newMovie.isMCU}
-            </li>
-            <li class="list-group-item">
               Main Character: ${newMovie.mainCharacterName}
             </li>
             <li class="list-group-item">
@@ -58,6 +52,9 @@ const addMovie = () => {
             </li>
             <li class="list-group-item">
               distributor: ${newMovie.distributor}
+            </li>
+            <li class="list-group-item">
+              Is MCU?: ${newMovie.isMCU}
             </li>
           </ul>
         </div>

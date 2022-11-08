@@ -3,13 +3,13 @@ class Movie {
     title,
     releaseYear,
     actors,
-    nacionality,
+    nationality,
     genre,
     director,
     producer,
     writer,
     language,
-    plataform,
+    platform,
     isMCU,
     distributor,
     mainCharacterName,
@@ -18,11 +18,11 @@ class Movie {
     this.title = title;
     this.releaseYear = releaseYear;
     this.genre = genre;
-    this.nacionality = nacionality;
+    this.nationality = nationality;
     this.director = director;
     this.writer = writer;
     this.language = language;
-    this.plataform = plataform;
+    this.platform = platform;
     this.isMCU = isMCU;
     this.mainCharacterName = mainCharacterName;
     this.producer = producer;
@@ -35,12 +35,12 @@ class Movie {
     console.group(Movie);
     console.log("Title - " + this.title);
     console.log("Release Year - " + this.releaseYear);
-    console.log("Nacionality - " + this.nacionality);
+    console.log("Nacionality - " + this.nationality);
     console.log("Genre- " + this.genre);
     console.log("Director - " + this.director);
     console.log("Writer - " + this.writer);
     console.log("Language - " + this.language);
-    console.log("Plataform - " + this.plataform);
+    console.log("Platform - " + this.platform);
     console.log("Is MCU? - " + this.isMCU);
     console.log("Main Character Name - " + this.mainCharacterName);
     console.log("Producer - " + this.producer);
